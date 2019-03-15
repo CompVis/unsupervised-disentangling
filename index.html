@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<!--
+  Based on
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117339330-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117339330-1');
+    </script>
+		<title>Unsupervised Part-Based Disentangling of Object Shape and Appearance</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="landing">
+
+		<!-- Banner -->
+			<section id="banner">
+        <h2> Unsupervised Part-Based <br> Disentangling of <br>Object Shape and Appearance
+        Generation</h2>
+        <p>
+        <a href="">Dominik Lorenz</a>,
+        <a href="">Leonard Bereska</a>,
+            <a href="">Timo Milbich</a>,
+            <a href="https://hci.iwr.uni-heidelberg.de/Staff/bommer">Bj&ouml;rn Ommer</a><br/>
+        <a href="https://www.iwr.uni-heidelberg.de/">IWR, Heidelberg University</a><br/>
+        <a href="http://cvpr2019.thecvf.com/">CVPR 2019</a></p>
+			</section>
+
+			<section id="one" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium) vert-center">
+                  <div class="container 25%">
+                    <div class="image fit captioned align-center">
+                      <a href="images/vunet.pdf">
+                        <img src="images/paper.png" alt="" />
+                      </a>
+                      <a href="https://arxiv.org/abs/1804.04694">arXiv</a>
+                      <div class="headerDivider"></div>
+                      <a href="images/vunet.bib">BibTeX</a>
+                      <!-- <div class="headerDivider"></div>
+                      <a href="https://github.com/CompVis/vunet">GitHub</a>
+                      <br/> -->
+                    </div>
+                  </div>
+							</div>
+							<div class="6u$ 12u$(medium)">
+                <h1>Abstract</h1>
+                <p>
+                Large intra-class variation is the result of changes in multiple object characteristics. Images, however, only show the superposition of different variable factors such as appearance or shape. Therefore, learning to disentangle and represent these different characteristics poses a great challenge, especially in the unsupervised case. Moreover, large object articulation calls for a flexible part-based model. We present an unsupervised approach for disentangling appearance and shape by learning parts consistently over all instances of a category. Our model for learning an object representation is trained by simultaneously exploiting invariance and equivariance constraints between synthetically transformed images. Since no part annotation or prior information on an object class is required, the approach is applicable to arbitrary classes. We evaluate our approach on a wide range of object categories and diverse tasks including pose prediction, disentangled image synthesis, and video-to-video translation. The approach outperforms the state-of-the-art on unsupervised keypoint prediction and compares favorably even against supervised approaches on the task of shape and appearance transfer.
+                </p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2 special">
+					<div class="container">
+						<header class="major">
+							<h2>Results</h2>
+							<p>and applications of our model.</p>
+						</header>
+
+                        <div class="row 150%">
+    <div class="6u 12u$(xsmall)">
+        <div class="image fit captioned">
+                        <div class="videocontainer43ar">
+                  <video poster="images/vid2vid.png" controls="controls" class="videothing">
+                   <source src="images/vid2vid.mp4" type="video/mp4">
+                   Your browser does not support the video tag.
+                  </video>
+            </div>
+				<h3>Unsupervised Video to Video transfer on the BBC-Pose Dataset</h3>
+
+        </div>
+    </div>
+    <div class="6u$ 12u$(xsmall)">
+        <div class="image fit captioned">
+                        <div class="videocontainer43ar">
+                  <video poster="images/localtransfer.png" controls="controls" class="videothing">
+                   <source src="images/localtransfer.mp4" type="video/mp4">
+                   Your browser does not support the video tag.
+                  </video>
+            </div>
+				<h3>Local appearance transfer on the DeepFashion Dataset</h3>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="row 150%">
+    <div class="6u 12u$(xsmall)">
+        <div class="image fit captioned">
+                      <a href="https://compvis.github.io/vunet/images/shoes_transfer.png">
+                                        <img src="images/cat.png" alt="">
+                      </a>
+                                        <h3>Unsupervised keypoints on Cat-Dataset</h3>
+        </div>
+    </div>
+    <div class="6u$ 12u$(xsmall)">
+        <div class="image fit captioned">
+                      <a href="https://compvis.github.io/vunet/images/shoes_transfer.png">
+                                        <img src="images/celeba.png" alt="">
+                      </a>
+                                        <h3>Unsupervised keypoints on CelebA-Dataset</h3>
+        </div>
+    </div>
+
+
+
+
+				  </div>
+				</section>
+
+
+			<!-- Four -->
+				<section id="four" class="wrapper style3 special">
+					<div class="container">
+						<header class="major">
+							<h2>Acknowledgement</h2>
+              <p>This work has been supported in part by the Heidelberg
+              Academy of Science <br/>and a hardware donation from NVIDIA Corp.
+              This page is based on a design by <a href="http://templated.co">TEMPLATED</a>.</p>
+						</header>
+					</div>
+				</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
