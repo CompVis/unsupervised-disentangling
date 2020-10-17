@@ -29,3 +29,7 @@ Todo:
 -add eval functions
 
 [Project page with videos](https://compvis.github.io/unsupervised-disentangling/) 
+
+## Contributions
+
+- [Demo Branch](https://github.com/CompVis/unsupervised-disentangling/tree/master/transfer-demo) by Marcos Carbonell [@MarkCarbonell98](https://github.com/MarkCarbonell98)
